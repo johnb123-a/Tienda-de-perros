@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="header__nav">
+      <button class="header__nav--btn">X</button>
+      <ul>
+        <li>Categorias</li>
+        <li>Pets</li>
+        <li>Nosotros</li>
+        <li>Contactanos</li>
+      </ul>
+    </div>
+    <header class="header">
+      <div class="header__primary">
+        <p>Grandes ofertas en comedores</p>
+        <p>Español<b></b> &nbsp; $Argentina<b></b></p>
+      </div>
+      <nav class="header__secondary">
+        <a><img src="./assets/img/Logo.JPG" alt="Logo" /></a>
+        <div>
+          <ul>
+            <li>Categorias</li>
+            <li>Pets</li>
+            <li>Nosotros</li>
+            <li>Contactanos</li>
+          </ul>
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox" class="header__secondary--checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Banner -->
+      <section class="section__banner">
+        <div class="banner__container">
+          <span class="banner__container--content">
+            <h2>¡Es un placer tenerte aqui!</h2>
+            <h3>¡Comederos en descuento!</h3>
+            <button>Comederos</button>
+          </span>
+        </div>
+      </section>
+      <!-- Info -->
+      <section class="section__info">
+        <img
+          src="./assets/img/Huella.JPG"
+          alt="Huella de perro"
+          class="section__info--image"
+        />
+        <h2 class="section__info--title">Productos Destacados</h2>
+        <ul class="section__info--categories">
+          <li>Comederos<span></span></li>
+          <li>Accesorios<span></span></li>
+          <li>Comida<span class="not-entity"></span></li>
+        </ul>
+      </section>
+      <!-- Products -->
+      <section class="section__products">
+        <div class="section__products--item">
+          <img src="./assets/img/churrasquito.jpg" alt="churrasquito" />
+          <p>juguete churrasquito</p>
+          <span>$150</span>
+        </div>
+        <div class="section__products--item">
+          <img src="./assets/img/comedero.jpg" alt="comedero para perro" />
+          <p>Comedero para perro</p>
+          <span>$250</span>
+        </div>
+        <div class="section__products--item">
+          <img src="./assets/img/Huesito.jpg" alt="hueso de juguete" />
+          <p>juguete huesito</p>
+          <span>$650</span>
+        </div>
+      </section>
+    </main>
+    <footer>Todos los derechos reservados Front End</footer>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

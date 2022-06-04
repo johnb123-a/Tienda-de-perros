@@ -1,0 +1,42 @@
+.section__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__info--image {
+    width: 10%;
+    height: 10%;
+}
+
+.section__info--title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.section__info--categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.section__info--categories li {
+    padding-left: 2rem;
+}
+
+.section__info--categories li span {
+    font-size: 2rem;
+}
+
+.section__info--categories li span.not-entity {
+    opacity: 0;
+}
+
+.section__info--categories li span::after {
+    content: '\002D';
+    padding-left: 2rem;
+}
+
