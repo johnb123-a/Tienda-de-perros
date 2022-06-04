@@ -4,6 +4,7 @@
 }
 
 .banner__container {
+    width: 100%;
     background-image: url('../img/bowl-and-pet-daities-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;

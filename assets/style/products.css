@@ -3,8 +3,8 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    background-color: red;
     padding: 1rem;
+    width: 100%;
 }
 
 .section__products--item {
@@ -12,4 +12,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #FBFAF6;
+}
+
+.section__products--item span {
+    color: var(--color-orange);
+    font-weight: 900;
+    padding-bottom: 1rem;
 }

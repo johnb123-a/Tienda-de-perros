@@ -45,7 +45,6 @@
         </div>
       </nav>
     </header>
-
     <main>
       <!-- Banner -->
       <section class="section__banner">
@@ -75,7 +74,7 @@
       <section class="section__products">
         <div class="section__products--item">
           <img src="./assets/img/churrasquito.jpg" alt="churrasquito" />
-          <p>juguete churrasquito</p>
+          <p>Juguete Churrasquito</p>
           <span>$150</span>
         </div>
         <div class="section__products--item">
@@ -85,9 +84,32 @@
         </div>
         <div class="section__products--item">
           <img src="./assets/img/Huesito.jpg" alt="hueso de juguete" />
-          <p>juguete huesito</p>
+          <p>Juguete Huesito</p>
           <span>$650</span>
         </div>
+      </section>
+      <!-- form -->
+      <section class="section__form">
+        <h2>Contactanos</h2>
+        <form onsubmit="event.preventDefault();">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Nombre y Apellido"
+          />
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Ingresa tu correo electronico"
+          />
+          <input type="text" name="phone" id="phone" placeholder="Telefono" />
+          <span>
+            <button class="section__form--btn1" type="reset">Resetear</button>
+            <button class="section__form--btn2" type="submit">Enviar</button>
+          </span>
+        </form>
       </section>
     </main>
     <footer>Todos los derechos reservados Front End</footer>
