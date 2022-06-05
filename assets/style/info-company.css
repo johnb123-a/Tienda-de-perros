@@ -1,0 +1,90 @@
+.section__info-company {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-orange);
+}
+
+.section__info-company--main {
+    display: flex;
+    justify-content: space-around;
+    color: var(--color-white);
+    padding: 1rem;
+}
+
+
+.title {
+    text-align: start;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.title i {
+    padding-right: 1rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    width: 50%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 15px;
+    margin-right: 1rem;
+    color: #000;
+}
+
+.form input::placeholder {
+    padding-left: 0.5rem;
+    color: inherit;
+}
+
+.form button {
+    width: 25%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--color-brown);
+    color: var(--color-white);
+    font-weight: 700;
+}
+
+.section__info-company--secondary {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--color-brown);
+    justify-items: center;
+    align-items: center;
+    color: var(--color-white);
+    padding: 1.5rem;
+}
+
+.section__info-company--secondary ul {
+    width: 100%;
+    list-style: none;
+}
+
+.section__info-company--secondary li {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.section__info-company--secondary i {
+    display: inline;
+    font-size: 2rem;
+    padding-right: 2.5rem;
+
+}
+
+.section__info-company--secondary li span {
+    font-size: 1.5rem;
+    padding-left: 5rem;
+    color: #8A8787;
+}

@@ -24,20 +24,20 @@
 .banner__container--content h2 {
     background: var(--color-white);
     padding: 0.5rem;
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: 400;
     margin-bottom: 15px;
 
 }
 
 .banner__container--content h3 {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 400;
     margin-bottom: 15px;
 }
 
 .banner__container--content button {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
     text-transform: uppercase;
     background-color: var(--color-orange);

@@ -1,4 +1,5 @@
 .section__info {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,10 +9,11 @@
 .section__info--image {
     width: 10%;
     height: 10%;
+    object-fit: cover;
 }
 
 .section__info--title {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 1rem;
 }
 
@@ -21,6 +23,7 @@
     align-items: center;
     justify-content: center;
     list-style: none;
+    font-size: 3rem;
 }
 
 .section__info--categories li {
@@ -28,7 +31,7 @@
 }
 
 .section__info--categories li span {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .section__info--categories li span.not-entity {
@@ -39,4 +42,3 @@
     content: '\002D';
     padding-left: 2rem;
 }
-

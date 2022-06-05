@@ -7,8 +7,10 @@
 :root {
     --color-white: #fff;
     --color-orange: #F0A83E;
+    --color-orange-opacity: #fac16c;
+    --color-brown: #3C2313;
 }
 
-body {
-    width: 100%;
+html {
+    font-size: 62.5%;
 }
